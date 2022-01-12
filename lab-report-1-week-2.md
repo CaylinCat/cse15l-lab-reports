@@ -89,8 +89,3 @@ Here are some commands I choose to run (`javac` and `java`). You can pick any an
 Whew! Congratz! You made it through. These are the steps I took and I hope they help you. 
 
 Winter Quarter 2022.
-
----
-
-> Go back to 
-![home](https://caylincat.github.io/cse15l-lab-reports/)
