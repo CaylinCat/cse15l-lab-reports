@@ -7,7 +7,8 @@ Follow the instructions below!
 1. Go to [https://code.visualstudio.com/](https://code.visualstudio.com/) and download VSCode
 2. Open it and it should launch
 
-![Image](/labReport1Images/vscodeimage.PNG)
+![Image](/labReport1Images/vscodeimage.PNG) 
+
 ^^It can look like this
 
 ---
@@ -21,8 +22,11 @@ Follow the instructions below!
 ```
 $ ssh your_account
 ```
+
 4. You will probably have to say yes to a bunch of questions, but after that you are done and connected.
+
 ![Image](/labReport1Images/remotelyconnecting.PNG) 
+
 When it says you have successfully logged in, you're in!
 
 ---
