@@ -21,9 +21,7 @@ Follow the instructions below!
 
 3. I went to the terminal and typed the following command!
 
-```
-$ ssh cs15lwi22aag@ieng6.ucsd.edu
-```
+    `$ ssh cs15lwi22aag@ieng6.ucsd.edu`
 
 4. I then said yes to a bunch of questions, but after that you are done and connected.
 
@@ -69,13 +67,10 @@ These are the steps I took to set up my SSH key!
 
 1. Go to your **local computer** (a very important step)
 2. Run `$ ssh-keygen` in your terminal and follow what is prompted
-
 You can press enter for all of it and then your key will be printed
-
-3. I didn't have to do this but if you are on windows you might have to follow the extra steps ![here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-4. Log into the remote computer and run `$ mkdir .ssh`
-5. Log out and then run `scp <your directory> cs15lwiaa6@ieng6.ucsd.edu:~/.ssh/authorized_keys` (Remember to replace parts of it with your own stuff if you are following this!)
-6. You should be done and can log into the remote computer without typing your password
+3. Log into the remote computer and run `$ mkdir .ssh`
+4. Log out and then run `scp <your directory> cs15lwiaa6@ieng6.ucsd.edu:~/.ssh/authorized_keys` (Remember to replace parts of it with your own stuff if you are following this!)
+5. You should be done and can log into the remote computer without typing your password
 
 Here is what mine looked like after I logged in by followed the instructions above:
 
@@ -92,8 +87,11 @@ Here are some commands I choose to run -- just pick any and run them in a row if
 
 ---
 
-Whew! Congratz! You made it through. These are the steps I took and I hope they help you. Winter Quarter 2022.
+Whew! Congratz! You made it through. These are the steps I took and I hope they help you. 
+
+Winter Quarter 2022.
 
 ---
 
-> Go back to ![home](https://caylincat.github.io/cse15l-lab-reports/)
+> Go back to 
+![home](https://caylincat.github.io/cse15l-lab-reports/)
