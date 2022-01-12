@@ -1,9 +1,6 @@
 # Welcome to my CSE15L Lab Report!
 
 ---
-* This is a cool website
-* So fun
-* Amazing!
+CSE15L is a computer science class offered by UCSD. I am taking this class Winter of 2022. Click the links below to view my lab reports!
 
----
-> The world is in your hands.
+* [Lab Report #1](https://caylincat.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
