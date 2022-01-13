@@ -4,18 +4,18 @@ Follow the instructions below!
 ---
 ## Installing VSCode
 
-1. First I went to [https://code.visualstudio.com/](https://code.visualstudio.com/) and downloaded VSCode
-2. Then I opened and launched it
+1. First I went to [https://code.visualstudio.com/](https://code.visualstudio.com/) and downloaded VSCode.
+2. Then I opened and launched it.
 
 ![Image](/labReport1Images/vscodeimage.PNG) 
 
-^^It looked like this
+^^It looked like this.
 
 ---
 ## Remote Connecting
 
-1. I then installed Open SSH by going [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
-2. Then I found my course specific account on [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
+1. I then installed Open SSH by going [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
+2. Then I found my course specific account on [UCSD Account Lookup](https://sdacs.ucsd.edu/~icc/index.php).
 
     Hint: Mine looked like **cs15lwi22aag@ieng6.ucsd.edu** but yours can differ
 
@@ -50,11 +50,11 @@ Here's what mine looked like:
 
 These are the steps I took on how to move a file called `WhereAmI.java` to a remote computer.
 
-1. First I logged off of the remote computer (you could also open a new terminal to your local computer for this step)
-2. Then I created a file called `WhereAmI.java` on VSCode
-3. I typed the command `scp WhereAmI.java cs15lwi22aa6@ieng6.ucsd.edu:~/` into my terminal (replace with your own if you are following along)
-4. If prompted with a password, type in your password
-5. You can also run the files stored in the remote computer on your local computer -- try the `javac` or `java` command
+1. First I logged off of the remote computer (you could also open a new terminal to your local computer for this step).
+2. Then I created a file called `WhereAmI.java` on VSCode.
+3. I typed the command `scp WhereAmI.java cs15lwi22aa6@ieng6.ucsd.edu:~/` into my terminal (replace with your own if you are following along).
+4. If prompted with a password, type in your password.
+5. You can also run the files stored in the remote computer on your local computer -- try the `javac` or `java` command.
 
 Here's what I tested out:
 
@@ -65,11 +65,11 @@ Here's what I tested out:
 
 These are the steps I took to set up my SSH key!
 
-1. I went to my **local computer** (a very important step)
-2. Ran `$ ssh-keygen` in my terminal and followed what was prompted (Hint: You can press enter for all of it if you have nothing to add and then your key will be printed)
-3. I logged into the remote computer and ran `$ mkdir .ssh`
-4. Then I logged out and ran `scp <my_directory_name> cs15lwiaa6@ieng6.ucsd.edu:~/.ssh/authorized_keys` (I replaced the my_directory_name with the name of my directory and you should too)
-5. You should be done and can log into the remote computer without typing your password
+1. I went to my **local computer** (a very important step).
+2. Ran `$ ssh-keygen` in my terminal and followed what was prompted (Hint: You can press enter for all of it if you have nothing to add and then your key will be printed).
+3. I logged into the remote computer and ran `$ mkdir .ssh`.
+4. Then I logged out and ran `scp <my_directory_name> cs15lwiaa6@ieng6.ucsd.edu:~/.ssh/authorized_keys` (I replaced the my_directory_name with the name of my directory and you should too).
+5. You should be done and can log into the remote computer without typing your password.
 
 Here is what mine looked like after I logged in by followed the instructions above:
 
