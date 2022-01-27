@@ -8,9 +8,10 @@ Code Change Diff:
 ![Image](/labReport2Images/fixingloop.PNG) 
 
 
-[Link to test file with failure inducing output!](https://github.com/CaylinCat/markdown-parse/blob/main/test-incorrect.md)
+Link to test file with failure inducing output!: [Click me!](https://github.com/CaylinCat/markdown-parse/blob/main/test-incorrect.md)
 
 Symptom:
+
 ![Image](/labReport2Images/infiniteloop.PNG) 
 
 The failure educing input of a link that contained characters like ( ) [ ] caused me to find a bug where we didn't register the right brackets. 
@@ -23,9 +24,10 @@ Code Change Diff:
 ![Image](/labReport2Images/fixedtest1.PNG) 
 
 
-[Link to test file with failure inducing output!](https://github.com/CaylinCat/markdown-parse/blob/main/test-incorrect2.md)
+Link to test file with failure inducing output!: [Click me!](https://github.com/CaylinCat/markdown-parse/blob/main/test-incorrect2.md)
 
 Symptom:
+
 ![Image](/labReport2Images/failure2.PNG) 
 
 The failure educing input of a link with "\]r l()" as text caused me to find a bug where we didn't check to see if we found the valid ] bracket, since you can put it into text with a \] in markdown. 
@@ -38,9 +40,10 @@ Code Change Diff:
 ![Image](/labReport2Images/fixedtest3.PNG) 
 
 
-[Link to test file with failure inducing output!](https://github.com/CaylinCat/CSE15L-Panther/blob/main/test-file8.md)
+Link to test file with failure inducing output!: [Click me!](https://github.com/CaylinCat/CSE15L-Panther/blob/main/test-file8.md)
 
 Symptom:
+
 ![Image](/labReport2Images/failure1.PNG) 
 
 The failure educing input of a fake link with spaces caused me to find a bug where we didn't check to see if the link had spaces, even though links can't have spaces. 
