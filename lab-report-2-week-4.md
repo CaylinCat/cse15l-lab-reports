@@ -14,7 +14,7 @@ Link to test file with failure inducing output!: [Click me!](https://github.com/
 
 Symptom:
 
-![Image](/labReport2Images/infiniteloop.PNG) 
+![Image](/labReport2Images/showingfirsterror.PNG) 
 
 The failure educing input of a link that contained characters like `(` `)` `[` `]` caused me to find a bug where we didn't register the right brackets. 
 I recognized this bug because of the symptom that when I ran the code, it processed to infinitely loop. I saw these through some print statements I wrote.
@@ -50,7 +50,7 @@ Link to test file with failure inducing output!: [Click me!](https://github.com/
 
 Symptom:
 
-![Image](/labReport2Images/failure1.PNG) 
+![Image](/labReport2Images/bug3incode.PNG) 
 
 The failure educing input of a fake link with spaces caused me to find a bug where we didn't check to see if the link had spaces, even though links can't have spaces. 
 I recognized this bug because of the symptom that when I ran the code with a fake link that had spaces, it processed that as a link even though it shouldn't have. This made my junit spit out that we had an error.
