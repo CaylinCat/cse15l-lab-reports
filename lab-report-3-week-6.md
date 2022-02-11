@@ -1,5 +1,5 @@
 # Copy whole directories with scp -r
-During Week 5, my group
+During Week 5, my group explored copying and running Markdown Parse files and commands in the cse 15L remote server. This included seperately copying the markdown parse directory and then running the commands on the remote computer, and also doing it together.
 
 ---
 ## Copying Markdown Parse Directory
