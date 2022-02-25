@@ -4,8 +4,9 @@ During Week 7, my group exchanged code with another code and we got to critique 
 ---
 Before we get started, here a few links and definitions to a few things to help clear out the instructions:
 
-My markdown parse respository: [Click me!](https://github.com/CaylinCat/CSE15L-Panther)
-Other group's markdown parse respository: [Click me!](https://github.com/ShashankVenkatramani/markdown-parse)
+My markdown parse respository: [https://github.com/CaylinCat/CSE15L-Panther](https://github.com/CaylinCat/CSE15L-Panther)
+
+Other group's markdown parse respository: [https://github.com/ShashankVenkatramani/markdown-parse](https://github.com/ShashankVenkatramani/markdown-parse)
 
 Snippet: the snippet of code that we are testing against our code
 Preview: A way of viewing the .md file as what it would look like on the website
@@ -46,6 +47,13 @@ I do not believe that there is a small fix that could allow my code to pass snip
 ---
 ## Snippet 2
 
+```
+[a [nested link](a.com)](b.com)
+
+[a nested parenthesized url](a.com(()))
+
+[some escaped \[ brackets \]](example.com)
+```
 VSCode Preview And Code: ![Image](/labReport4Images/preview2.PNG)
 
 Looking at this, I believe the expected output should be: `[a.com, a.com(0), example.com]`.
@@ -68,6 +76,32 @@ I do not believe that there is a small fix that could allow my code to pass snip
 ---
 ## Snippet 3
 
+```
+[this title text is really long and takes up more than 
+one line
+
+and has some line breaks](
+    https://www.twitter.com
+)
+
+[this title text is really long and takes up more than 
+one line](
+    https://ucsd-cse15l-w22.github.io/
+)
+
+
+[this link doesn't have a closing parenthesis](github.com
+
+And there's still some more text after that.
+
+[this link doesn't have a closing parenthesis for a while](https://cse.ucsd.edu/
+
+
+
+)
+
+And then there's more text
+```
 VSCode Preview And Code: ![Image](/labReport4Images/preview3.PNG)
 
 Looking at this, I believe the expected output should be: `[https://www.twitter.com, https://ucsd-cse15l-w22.github.io/, https://cse.ucsd.edu/]`.
