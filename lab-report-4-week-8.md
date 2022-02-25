@@ -30,7 +30,7 @@ Their Implementation: running the tests on their group's code
 ```
 VSCode Preview and Code: ![Image](/labReport4Images/preview1.PNG)
 
-Looking at this, I believe the expected output should be: ``\[google.com, google.com, ucsd.edu]`.
+Looking at this, I believe the expected output should be: ```[`google.com, google.com, ucsd.edu]`.```
 
 To turn it into a test, I added it into the MarkdownParseTest file:
 ![Image](/labReport4Images/addingtests1.PNG)
