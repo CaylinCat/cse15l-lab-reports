@@ -9,8 +9,11 @@ My markdown parse respository: [https://github.com/CaylinCat/CSE15L-Panther](htt
 Other group's markdown parse respository: [https://github.com/ShashankVenkatramani/markdown-parse](https://github.com/ShashankVenkatramani/markdown-parse)
 
 Snippet: the snippet of code that we are testing against our code
+
 Preview: A way of viewing the .md file as what it would look like on the website
+
 My Implementation: running the tests on my group's code
+
 Their Implementation: running the tests on their group's code
 
 ---
