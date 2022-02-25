@@ -30,7 +30,7 @@ Their Implementation: running the tests on their group's code
 ```
 VSCode Preview and Code: ![Image](/labReport4Images/preview1.PNG)
 
-Looking at this, I believe the expected output should be: ```[`google.com, google.com, ucsd.edu]`.```
+Looking at this, I believe the expected output should be: ```[`google.com, google.com, ucsd.edu]```.
 
 To turn it into a test, I added it into the MarkdownParseTest file:
 ![Image](/labReport4Images/addingtests1.PNG)
@@ -45,7 +45,7 @@ Their implementation also did not pass the test, as shown below:
 
 Their test failure is indicated by the first error, as it did not meet the expected output for Snippet 1.
 
-I do not believe that there is a small fix that could allow my code to pass snippet 1, it would require a more involved change as described below. If I search for `](` instead of just `]` or `(` I believe this would allow my code not to get confused by the extra `]` or `[` present. I then would have to account for the random ``\` in the code, and make sure a needed `[` or `]` was not in between one of those tic marks.
+I do not believe that there is a small fix that could allow my code to pass snippet 1, it would require a more involved change as described below. If I search for `](` instead of just `]` or `(` I believe this would allow my code not to get confused by the extra `]` or `[` present. I then would have to account for the random ``` ` ``` in the code, and make sure a needed `[` or `]` was not in between one of those tic marks.
 
 ---
 ## Snippet 2
