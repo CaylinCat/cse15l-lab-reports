@@ -1,8 +1,8 @@
-# 652 commonmark-spec tests
-During Week 9, we got a new directory called `test-files/` which held 625 tests. We had to test these tests on our Markdown Parse directory and a given Markdown Parse directory. I downloaded the directory, updated the `script.sh`, and then ran the tests and put the results in 2 `results.txt` files and compared them.
+# 652 commonmark-spec Tests
+During Week 9, we got a new directory called `test-files/` which held 652 tests. We had to test these tests on our Markdown Parse directory and a given Markdown Parse directory. I downloaded the directory, updated the `script.sh`, and then ran the tests and put the results in two `results.txt` files and compared them.
 
 ---
-## Comparing the 652 tests
+## Comparing the 652 Tests
 
 I used a bash for loop in `script.sh` and I used `script.sh > results.txt` in both directories to put the output of the tests into there. Then I ran `diff CSE15L-Panther/results.txt markdown-parse/results.txt` to compare the two as shown below.
 
@@ -10,7 +10,7 @@ Output of `diff`:
 ![Image](/labReport5Images/diff1.PNG) 
 ![Image](/labReport5Images/diff2.PNG)
 
-## Test #1: line 212
+## Test #1: Line 212
 
 This is test `194.md`, present on line 212 of the `results.txt` file.
 
@@ -27,7 +27,7 @@ The bug with my mark down parse code is that when there is a space between `]` a
 
 ![Image](/labReport5Images/line27.PNG)
 
-## Test #1: line 212
+## Test #2: Line 230
 
 This is test `201.md`, present on line 230 of the `results.txt` file.
 
